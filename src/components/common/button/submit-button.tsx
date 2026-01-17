@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { Button } from '@/components/ui/button';
-import ButtonSpinner from '../loader/ButtonSpinner';
+import { Button } from "@/components/ui/button";
+import ButtonSpinner from "../loader/ButtonSpinner";
 
 interface Props {
   text?: string;
@@ -11,7 +11,7 @@ interface Props {
 }
 
 const SubmitButton = ({
-  text = 'Submit',
+  text = "Submit",
   className,
   loading = false,
   disable = false,

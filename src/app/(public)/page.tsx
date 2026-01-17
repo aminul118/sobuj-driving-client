@@ -1,3 +1,4 @@
+import Contact from "@/components/modules/contact/Contact";
 import HeroBanner from "@/components/modules/HeroBanner";
 import WhyChooseUs from "@/components/modules/WhyChooseUs";
 
@@ -6,6 +7,7 @@ const HomePage = () => {
     <>
       <HeroBanner />
       <WhyChooseUs />
+      <Contact />
     </>
   );
 };
