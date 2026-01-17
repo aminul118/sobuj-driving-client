@@ -1,5 +1,13 @@
+import HeroBanner from "@/components/modules/HeroBanner";
+import WhyChooseUs from "@/components/modules/WhyChooseUs";
+
 const HomePage = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <HeroBanner />
+      <WhyChooseUs />
+    </>
+  );
 };
 
 export default HomePage;
