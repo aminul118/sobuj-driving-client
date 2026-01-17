@@ -1,6 +1,6 @@
 import { FaEnvelope, FaLocationArrow } from "react-icons/fa";
 import { FaPhone, FaWhatsapp } from "react-icons/fa6";
-import SocialLinks from "../SocialLinks";
+import SocialLinks from "../Home/SocialLinks";
 
 const ContactInfo = () => {
   return (

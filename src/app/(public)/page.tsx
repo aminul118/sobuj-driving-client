@@ -1,6 +1,6 @@
-import Contact from "@/components/modules/contact/Contact";
-import HeroBanner from "@/components/modules/HeroBanner";
-import WhyChooseUs from "@/components/modules/WhyChooseUs";
+import Contact from "@/components/modules/Contact/Contact";
+import HeroBanner from "@/components/modules/Home/HeroBanner";
+import WhyChooseUs from "@/components/modules/Home/WhyChooseUs";
 
 const HomePage = () => {
   return (
